@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: cyan;
+    padding: 5px 20px;
+    text-align: center;
+    top: 0;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.profil {
+    width: 60%;
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.galeri {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20;
+    width: auto;
+}
+
+.galeri h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px #5278d8;
+    padding: 5px;
+}
+
+.kartu-aktivitas {
+    background-color: rgb(89, 116, 197);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    flex-basis: 20%;
+
+}
+
+.kartu-aktivitas:hover{
+    transform: translateY(-8px);
+    
+}
+
